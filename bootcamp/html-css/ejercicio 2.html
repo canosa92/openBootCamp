@@ -1,3 +1,50 @@
 <form>
-    <input 
+    <fieldset>
+       <div> <label for="name">Nombre: 
+ <input type="Text" placeholder="Introduzca aqui su nombre" name="name" required pattern="[A-Z]"/></label>
+</div>
+<div>
+    <label for="apellido">Apellido:
+ <input type="Text" placeholder="Introduzca aqui su apellido" name="apellido"required/></label></div>
+ <div>
+ <label for="email">Email:</label>
+ <input name="email" type="email"required/>
+ </div>
+ <div>
+     <label for="telefono"> telefono<input type="tel" name="telefono" placeholder="000000000"required/>
+     </label>
+ </div>
+ <div>
+<label for="direccion">direccion
+    <input name="direccion" type="text"/>
+</label>
+ </div>
+ <button type="submit" name="boton">Enviar</button>
+    </fieldset>
 </form>
+<table >
+<thead>
+    <th>titulo 1</th>
+    <th>titulo 2</th>
+    <th>titulo 3</th>
+    <th>titulo 4</th>
+</thead>
+<tbody>
+    <td>valor 1</td>
+    <td colspan="2">valor 2</td>
+    <td>valor 3</td>
+</tbody>
+<tr>
+    <td rowspan="2">valor 4</td>
+    <td>valor 5</td>
+    <td>valor 6</td>
+    <td>valor 7</td>
+</tr>
+<tr>
+    <td>valor 8</td>
+    <td>valor 9</td>
+    <td>valor 10</td>
+</tr>
+
+
+</table>
