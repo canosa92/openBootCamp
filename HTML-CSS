@@ -1,1 +1,26 @@
 
+<h1>Este es el primer encabezado</h1>
+<p>¿Cuantos caracteres debe de tener un parrafo para que se le considere como tal?
+    No creo que tenga que tener unos minimos caracteres o palabras sino que creo que
+    tiene que tener un  tamaño de texto determinado y ademas cierta caracteristicas
+    Si no te fias de mi siempre puedes consultar <a href="https://dle.rae.es/párrafo" target=_blank>aquí</a> el significado de parrafo segun
+    la RAE</p>
+<h2>Este es el encabezado de las listas</h2>
+<div id="List1" style="background-color:burlywood;color:red;">
+    <ol>
+        <li>5</li>
+        <li>4</li>
+        <li>3</li>
+        <li>2</li>
+        <li>1</li>
+    </ol>
+</div>
+<div id="list2" style="list-style-type: square;background-color: aquamarine;">
+    <ul>
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miercoles</li>
+        <li>Jueves</li>
+        <li>Viernes</li>
+    </ul>
+</div>
