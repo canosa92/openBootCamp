@@ -1,0 +1,12 @@
+p{font-size: small;
+    font-style: oblique;
+color: brown;}
+
+
+.miparrafo { font-family: fantasy;
+    color:khaki;
+           }
+div p{font-size: medium;
+color: darkgreen;}
+div p.miparrafo{background-color: blue;
+color: chartreuse;}
