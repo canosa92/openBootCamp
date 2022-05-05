@@ -1,0 +1,58 @@
+*{margin-left: 2%;
+margin-right: 2%;}
+ h1{ text-align: center;}
+#container {display: inline;}
+#cuadrado{width: 150px;
+          height: 150px;
+          background-color: aqua;
+          display: inline-block;
+        }
+#cuadrado:hover{
+    animation-name: cuadrado;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes cuadrado{
+    10%{background-color: #555;
+        transform: rotate(0deg);}
+    25%{background-color: black;
+        transform: rotate(90deg);}
+    50%{background-color: blanchedalmond;
+       transform: rotate(180deg);}
+    75%{ background-color: blue;
+    transform: rotate(270deg);}
+    100%{ background-color: aqua;
+        transform: rotate(360deg);
+    }
+}
+#cuadrado2 {
+            width: 150px; 
+            height: 150px; 
+            border: 3px solid #555;
+            margin-top: 10px;
+            display: inline-block; 
+       }
+#cuadrado2:hover{
+    animation-name: cuadrado2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: inherit;
+}
+@keyframes cuadrado2{
+    0% {
+        opacity:1;
+        transform: translateX(0);
+        }
+        50%{
+        opacity:0.5;
+        transform: translateX(10px);
+        }
+        100% {
+        opacity:0;
+        transform: translateX(200px);
+        
+        }
+}
+       
