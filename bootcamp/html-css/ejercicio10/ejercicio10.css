@@ -1,0 +1,23 @@
+
+*{margin: auto;
+   padding:0%;}
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#cuadrado{height: 800px;
+         width: 800px;
+         background-color: black;
+        }
+video{ height: 400px;
+        width: 400px;}
+img{display:none;}
+
+@media (max-width:700px) {
+    #cuadrado{
+        background-color:green;
+        width: 100px;
+        height: 100px;
+}   video {display:none;
+    }
+    img {width: 100px;
+        display: initial;
+    }}
