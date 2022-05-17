@@ -1,0 +1,10 @@
+let fecha=new Date()
+let cumple=new Date(1992,11,18)
+console.log(cumple)
+console.log(fecha>cumple)
+let dia=cumple.getDate()
+console.log(dia)
+let mes=cumple.getMonth() +1
+console.log(mes)
+let año=cumple.getFullYear()
+console.log(año)
