@@ -1,0 +1,11 @@
+{
+  "name": "14",
+  "version": "1.0.0",
+  "description": "Esto es el ejercicio 14 del curso de Javascript de Open BootCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC"
+}
